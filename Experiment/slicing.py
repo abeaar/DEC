@@ -6,7 +6,10 @@ import matplotlib.pyplot as plt
 # Baca file
 st1 = read(r"E:\Skripsi\DEC\dataset\VG.MEPAC.00.HHZ.D.2025.254.mseed")
 st2 = read(r"E:\Skripsi\DEC\dataset\VG.MEPAC.00.HHZ.D.2025.255.mseed")
-st_combined = st1 + st2
+st3 = read(r"E:\Skripsi\DEC\dataset\VG.MEPAC.00.HHZ.D.2025.256.mseed")
+st4 = read(r"E:\Skripsi\DEC\dataset\VG.MEPAC.00.HHZ.D.2025.257.mseed")
+
+st_combined = st1 + st2 + st3 + st4
 st_combined.merge(method=1)
 st_combined.filter('bandpass', freqmin=0.5, freqmax=15, zerophase=True)
 
