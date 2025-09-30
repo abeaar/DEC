@@ -27,5 +27,5 @@ def test_shift():
     print(f"Shift -3:     {shifted2}")
 
 # print(read_msd_file(r'E:\Skripsi\DEC\dataset\ae-supervised-dataset\augmented\GASBURST\2022-08-01_13-38-55-GASBURST_shift.mseed'))
-print(read_msd_file(r'E:\Skripsi\DEC\dataset\ae-supervised-dataset\cleaned\GASBURST\2022-08-01_13-38-55-GASBURST.mseed'))
+print(read_msd_file(r'E:\Skripsi\DEC\dataset\filtered_mseed_2022\MEPAS_HHZ_20220731_170947.mseed'))
 # test_shift()

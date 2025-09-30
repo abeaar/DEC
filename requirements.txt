@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+obspy
+tensorflow==2.20.0
+sklearn
+xgboost
